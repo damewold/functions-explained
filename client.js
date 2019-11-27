@@ -17,6 +17,7 @@ function jump () {
   let index = $(this).data('index');
   stage = index;
   updatePage();
+  updateButtons();
   console.log('JUMP');
 }
 
@@ -24,25 +25,21 @@ function next () {
   if (stage<data.length-1) {
     stage++;
     updatePage();
+    updateButtons();
   }
-  if (stage===data.length-1) {
-    $(this).attr('disabled',true);
-  }
-  if (stage>0) {
-    $('#btn-back').attr('disabled',false);
-  }
+}
+
+function updateButtons () {
+  //Are we at the end?
+  $('#btn-next').attr('disabled',(stage===data.length-1));
+  $('#btn-back').attr('disabled',(stage===0));
 }
 
 function back () {
   if (stage>0) {
     stage--;
     updatePage();
-  }
-  if (stage===0) {
-    $(this).attr('disabled',true);
-  }
-  if (stage<data.length-1) {
-    $('#btn-next').attr('disabled',false);
+    updateButtons();
   }
 }
 
