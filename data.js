@@ -65,7 +65,7 @@ const data = [
         a variable just like with anonymous functions:
       </p>
       <p class="code">
-        let myFunction = function (argument) {return argument+2;}
+        let myFunction = (argument)=> {return argument+2;}
       </p>
       `,
     question: `But what if I hate curly braces and the word 'return'?`
