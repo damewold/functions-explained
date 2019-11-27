@@ -44,7 +44,7 @@ const data = [
       <p class="code">
         array.filter( function (num) {return num>0} );
       </p>`,
-    question: `But what if long words make me uncomfortable?`
+    question: `But what if the word 'function' makes me uncomfortable?`
   },
   {
     title: `3. Arrow Functions`,
