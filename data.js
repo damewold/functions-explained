@@ -103,7 +103,7 @@ const data = [
     description: `
       <p>
         A good use of abbreviated functions like anonymous functions and arrow functions
-        are when you are using a method that requires a function as an argument.
+        is when you are using a method that requires a function as an argument.
       <p>
       <p>
         We are going to use the array 'filter' method as an example. The filter method
