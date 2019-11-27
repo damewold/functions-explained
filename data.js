@@ -76,7 +76,7 @@ const data = [
     description: `
       <p>
         When the curly braces are removed, the need for the word 'return' is removed
-        as well. A function with no explicitely state 'return' has what is called
+        as well. A function with no explicitely stated 'return' has what is called
         an <i>implicit</i> return. Because the return is <i>implied</i>, but not stated.
       </p>
       <p>
