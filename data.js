@@ -7,13 +7,13 @@ const data = [
       <p class="example-code">}</p>`,
     description: `
       <p>
-        The is the common way of defining a function. We declare that we are
+        The is the most common way of defining a function. We declare that we are
         writing a function, set the function name, provide it with arguments
         in the parentheses, then put the code to be executed by the function in
         a code block defined by the curly braces.
       </p>
       <p>
-        This type of function can be defined and called out of order. You do note
+        This type of function can be defined and called out of order. You do not
         have to initialize this function before calling it.
       </p>`,
     question: `But what if I don't like naming things?`
