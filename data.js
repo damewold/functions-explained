@@ -3,7 +3,7 @@ const data = [
     title: "1. Normal Functions",
     example: `
       <p class="example-code">function functionName (argument) {</p>
-      <p class="indent">return 2+2;</p>
+      <p class="indent">return argument+2;</p>
       <p class="example-code">}</p>`,
     description: `
       <p>
@@ -22,7 +22,7 @@ const data = [
     title: "2. Anonymous Functions",
     example: `
       <p class="example-code">function (argument) {</p>
-      <p class="indent">return 2+2;</p>
+      <p class="indent">return argument+2;</p>
       <p class="example-code">}</p>`,
     description: `
       <p>
@@ -50,7 +50,7 @@ const data = [
     title: `3. Arrow Functions`,
     example: `
       <p class="example-code">(argument)=> {</p>
-      <p class="indent">return 2+2;</p>
+      <p class="indent">return argument+2;</p>
       <p class="example-code">}</p>`,
     description: `
       <p>
