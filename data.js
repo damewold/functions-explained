@@ -172,7 +172,7 @@ const data = [
       </p>
       <p>
         Let's make this code cleaner by removing the curly braces and the explicit
-        'return' statement and replace them with an implicit return:
+        'return' statement and replacing them with an implicit return:
       </p>
       <p class="code">
         let numbersArray = [5,8,3,10,15,20,1,-5];<br><br>
