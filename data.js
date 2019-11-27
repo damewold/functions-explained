@@ -191,6 +191,6 @@ const data = [
         makes your code less cluttered and keeps the length of your lines to a minimum.
       </p>
     `,
-    question: `Arrow are now my favorite thing ever! Woot!`
+    question: `Arrow functions are now my favorite thing ever! Woot!`
   }
 ];
