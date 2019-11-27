@@ -54,7 +54,7 @@ const data = [
       <p class="example-code">}</p>`,
     description: `
       <p>
-        An arrow function is basically an anonymouns function with two changes:
+        An arrow function is an anonymouns function just like before, but with two changes:
       </p>
       <ul>
         <li>The word 'function' has been removed.</li>
