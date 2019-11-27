@@ -10,6 +10,14 @@ stage = 0; //Which step of the code we are on;
 function clickHandlers () {
   $('#btn-next').on('click',next);
   $('#btn-back').on('click',back);
+  $('#navbar').on('click','.icon',jump);
+}
+
+function jump () {
+  let index = $(this).data('index');
+  stage = index;
+  updatePage();
+  console.log('JUMP');
 }
 
 function next () {
@@ -75,7 +83,6 @@ function updateNavbar () {
   }
   $('#navbar').append(ul);
 }
-
 
 let numbers = [5,8,3,10,15,20,1,-5];
 let newArray = numbers.filter((number)=>number > 5);

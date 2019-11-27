@@ -98,11 +98,11 @@ const data = [
     question: `Neato. But what should I do with this?`
   },
   {
-    title: `5. Using Functions`,
+    title: `5. How to use`,
     example: ``,
     description: `
       <p>
-        A good use of shortened functions like anonymous functions and arrow functions
+        A good use of abbreviated functions like anonymous functions and arrow functions
         are when you are using a method that requires a function as an argument.
       <p>
       <p>
