@@ -153,7 +153,7 @@ const data = [
       </p>
       <p>
         It feels weird to say the word 'function' though, since we already know this
-        has to be a function. (Plus it'll save us some typing and make our code shorter.)
+        has to be a function. (Plus removing it will save us some typing and make our code shorter.)
       </p>
       <p>
         Let's turn this into an arrow function by removing the word
