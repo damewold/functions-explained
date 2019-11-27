@@ -157,7 +157,7 @@ const data = [
       </p>
       <p>
         Let's turn this into an arrow function by removing the word
-        'function' and replacing it with the '=>' symbols:
+        'function' and replacing it with the '=>' symbols after the arguments:
       </p>
       <p class="code">
         let numbersArray = [5,8,3,10,15,20,1,-5];<br><br>
